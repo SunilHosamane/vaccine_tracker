@@ -41,7 +41,7 @@ def fetch_data(c,channelID,alreadySent):
                     
                     
                     if sent not in alreadySent:
-                        requests.post("https://api.telegram.org/bot1732618443:AAHPI29hCULVLh9rCxEv6cOXieWGaMXyb8o/sendMessage?chat_id="+channelID+"&text="+out)
+                        requests.post("https://api.telegram.org/###botID#####/sendMessage?chat_id="+channelID+"&text="+out)
                         print(out)
                         alreadySent.append(sent)
                     
